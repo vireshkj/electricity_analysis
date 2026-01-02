@@ -5,6 +5,10 @@
 - pip install -r requirements.txt
 - python app.py
 
+# Docker
+- docker build -t electricity_analysis .
+- docker run -p 5001:5001 electricity_analysis
+
 # inputs
 - csv_file:  file to be processed
 - peak_hours: [7,8,9,10,11,12,13,14,15,16,17,18,19,20]
